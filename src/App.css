@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.App {
+  text-align: center;
+  font-family: var(--typography-font-family);
+  background-color: var(--palette-color-white-off);
+}
+
+:root {
+  --palette-color-green: #3eb871;
+  --palette-color-orange: #ff6d4a;
+  --palette-color-white-main: #fff;
+  --palette-color-white-off: #ebebeb;
+  --palette-color-gray-light: #e4e4e4;
+  --palette-color-gray-main: #323232;
+  --palette-color-gray-opacity: rgba(0, 0, 0, 0.4);
+  --typography-font-family: "Open Sans";
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-card-title {
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container-card-subtitle {
+  font-size: 22px;
+  font-weight: bold;
+}

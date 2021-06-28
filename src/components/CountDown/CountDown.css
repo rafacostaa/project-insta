@@ -1,0 +1,5 @@
+@import url("../../App.css");
+
+.color-subtitle {
+  color: var(--palette-color-orange);
+}
